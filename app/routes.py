@@ -1,7 +1,6 @@
 from flask import Flask, render_template, flash, request, redirect, url_for, jsonify, json, session
 from app import app
-from app.forms import ExampleForm
-from app.extensions import Extensions 
+from .forms import ExampleForm
 import pprint as pp
 from config import Config
 
